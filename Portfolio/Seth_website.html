@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <!-- Icon for website-->
+
+        <link rel="stylesheet" href="Seth_website.css"/>
+        <title>Seth's Website</title>
+        
+        
+    </head>
+    <body id="pick">
+        <!-- This will be the login and sign up top-->
+        <nav>
+            <h1 class="welcome">Welcome to Seth's Website</h1>
+            
+            <p class="enter login--text">Login:</p>
+
+            
+            <form class="login username">
+                <input type="text" placeholder="email" class = "login" id="username--field"/>
+                <input type="text" placeholder="password" class = "login" id="password--field"/>
+                <button class="button login--button" type="button">LOGIN!</button>
+            </form>
+            <button class="change signup--button"><u>Sign up!</u></button>
+        </nav>
+
+        <main>
+            <img class="padlock" src="padlock_locked.png", width="200">
+            <div class="signup signup--field hidden">
+                <h3 class="title">Sign Up!</h3>
+                <form class="signup email">
+                    <ul>
+                        <li>
+                            <label for="mail">Email:</label>
+                            <input type="email" id="mail" placeholder="value@gmail.com"><br>
+                        </li>
+                        <li>
+                            <label for="password">Password:</label>
+                            <input type="text" id="password" placeholder="password"><br>
+                        </li>
+                    </ul>
+                    <button class="button create--button" type="button">Create an Account!</button>
+                </form>
+
+            </div>
+            
+            <img class="circular--face hidden2" src="seth_face.png" alt="face_of_seth", width="200">
+            <!-- When they have logged in, this will show them a new screen. T-->
+            <div class="unlocked hidden2">
+                
+
+                
+                <div class="randomstuff">
+                    <button class="button logout--button" type="button">Logout</button>
+                    <h5><strong>Information about Seth</strong></h5>
+                    <ul>
+                        <li>Born in Nigeria, Abuja on May 5, 2005</li>
+                        <li>Moved to Ohio roughly 10 decades ago</li>
+                        <li>Lives in Cleveland Heights with family</li>
+                        <li>Went to Eprep middle school, Hawken Upper School, and currently is in Case Western Reserve University</li>
+                        <li>Loves the programming aspect of Computer Science and plans to major in it</li>
+                        <li>Is on the lookout for internships to test his skills</li>
+                    </ul>
+                </div>            
+
+            </div>
+
+
+        </main>
+        <script src="Seth_website.js"></script>
+    </body>
+</html>
